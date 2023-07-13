@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Company Survey Form</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+
+        <div class="form-control">
+            <label for="first name" id="label-name">
+                First Name
+            </label>
+ 
+
+            <input type="text"
+                   id="first name"
+                   placeholder="Enter your First name" />
+        </div>
+        <div class="form-control">
+            <label for="second name" id="label-name">
+                Second Name
+            </label>
+ 
+
+            <input type="text"
+                   id="second name"
+                   placeholder="Enter your Second name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Your experience*
+            </label>
+             
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                How satisfied are you with?
+            </label>
+ 
+
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Satisfied</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Notsatisfied</input>
+            </label>
+            
+        </div>
+  
+        <div class="form-control">
+            <label>How likely are you to?
+                <small></small>
+            </label>
+
+            <label for="inp-1">
+                <input type="radio"
+                       name="inp">likely</input>
+            </label>
+            <label for="inp-2">
+                <input type="radio"
+                       name="inp">Neutral</input>
+            </label>
+            <label for="inp-2">
+                <input type="radio"
+                       name="inp">Unlikely</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
